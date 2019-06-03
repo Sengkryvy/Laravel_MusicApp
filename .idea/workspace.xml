@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9904e39e-0b08-491f-945d-2c76713d47da" name="Default Changelist" comment="" />
+    <list default="true" id="9904e39e-0b08-491f-945d-2c76713d47da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,8 +287,13 @@
             <path>
               <item name="Music_App" type="b2602c69:ProjectViewProjectNode" />
               <item name="Music_App" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Music_App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Music_App" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Music_App" type="b2602c69:ProjectViewProjectNode" />
@@ -351,12 +358,12 @@
       <updated>1559451933428</updated>
       <workItem from="1559451934813" duration="1155000" />
       <workItem from="1559472396091" duration="5509000" />
-      <workItem from="1559529521835" duration="1161000" />
+      <workItem from="1559529521835" duration="1456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7825000" />
+    <option name="totallyTimeSpent" value="8120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
