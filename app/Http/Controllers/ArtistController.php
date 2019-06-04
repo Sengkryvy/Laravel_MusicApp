@@ -63,7 +63,7 @@ class ArtistController extends Controller
      */
     public function edit(Artist $artist)
     {
-        //
+        return view('crud.artist.edit');
     }
 
     /**
@@ -75,7 +75,10 @@ class ArtistController extends Controller
      */
     public function update(Request $request, Artist $artist)
     {
-        //
+        $request['image'] = $request->image_url;
+        unset($request['image_url']);
+        $artist->update($request->all());
+        return "Success";
     }
 
     /**
@@ -86,6 +89,6 @@ class ArtistController extends Controller
      */
     public function destroy(Artist $artist)
     {
-        //
+        $artist->delete();
     }
 }
