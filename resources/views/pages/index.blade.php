@@ -3,7 +3,8 @@
 @section('content')
 
     <div class="app">
-        <div id="content" style="overflow: auto; margin-bottom: 75px; padding-bottom: 75px;" class="content p-3 col-lg-10 offset-lg-2 col-md-9 offset-md-3 col-12 p-0">
+        <div id="content" style="overflow: auto; margin-bottom: 75px; padding-bottom: 75px;"
+             class="content p-3 col-lg-10 offset-lg-2 col-md-9 offset-md-3 col-12 p-0">
 
             <!-- explore page -->
             <div id="explore" class="">
@@ -26,7 +27,8 @@
                                 id="list1">
                                 <td scope="row" class="list-artwork">
                                     <div class="artwork">
-                                        <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
+                                        <span class="no-border-radius"
+                                              style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
                                     </div>
                                 </td>
                                 <td>Sunflower</td>
@@ -37,7 +39,8 @@
                             <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FYoung%20Dumb%20%20Broke%20%20Khalid%20%20Lyrics.mp3?alt=media&token=862389ba-6f03-409b-9645-81fd20d1852f">
                                 <th scope="row">
                                     <div class="artwork">
-                                        <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
+                                        <span class="no-border-radius"
+                                              style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                                     </div>
                                 </th>
                                 <td class="td-nowrap">Young dumb and broke</td>
@@ -48,7 +51,8 @@
                             <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FBazzi%20%E2%80%93%20Mine%20(Lyrics)%20%F0%9F%8E%B5.mp3?alt=media&token=8af98424-42da-4599-b0c3-30babb10a61e">
                                 <td scope="row" class="list-artwork">
                                     <div class="artwork">
-                                        <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000334054377-fgpyvw-t500x500.jpg");'></span>
+                                        <span class="no-border-radius"
+                                              style='background-image: url("https://i1.sndcdn.com/artworks-000334054377-fgpyvw-t500x500.jpg");'></span>
                                     </div>
                                 </td>
                                 <td>Mine</td>
@@ -59,7 +63,8 @@
                             <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FKhalid%20-%20Better%20(Official%20Video).mp3?alt=media&token=558036d1-ffad-441a-a835-16b8b1b83a5c">
                                 <th scope="row">
                                     <div class="artwork">
-                                        <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
+                                        <span class="no-border-radius"
+                                              style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                                     </div>
                                 </th>
                                 <td class="td-nowrap">Better</td>
@@ -70,7 +75,8 @@
                             <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FMarshmello%20ft.%20Bastille%20-%20Happier%20(Official%20Lyric%20Video).mp3?alt=media&token=6f0635a8-1e04-4bd5-9ea9-a3f5cba19a7a">
                                 <td scope="row" class="list-artwork">
                                     <div class="artwork">
-                                        <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000390226092-1vzsos-t500x500.jpg")'></span>
+                                        <span class="no-border-radius"
+                                              style='background-image: url("https://i1.sndcdn.com/artworks-000390226092-1vzsos-t500x500.jpg")'></span>
                                     </div>
                                 </td>
                                 <td>Happier</td>
@@ -81,7 +87,8 @@
                             <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FLauv%20-%20I%20Like%20Me%20Better%20%5BOfficial%20Audio%5D%20(1).mp3?alt=media&token=9dc8f558-3ccb-4edb-a3ae-0d1676cd8588">
                                 <th scope="row">
                                     <div class="artwork">
-                                        <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-8n24PQuaQZWL-0-t500x500.jpg");'></span>
+                                        <span class="no-border-radius"
+                                              style='background-image: url("https://i1.sndcdn.com/artworks-8n24PQuaQZWL-0-t500x500.jpg");'></span>
                                     </div>
                                 </th>
                                 <td class="td-nowrap">I like me better</td>
@@ -92,7 +99,8 @@
                             <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/In%20The%20End%20-%20Linkin%20Park.mp3?alt=media&token=8d74a9c1-77a5-4d38-baf4-d8bb4113f34f">
                                 <td scope="row" class="list-artwork">
                                     <div class="artwork">
-                                        <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000282078677-wnv9pv-t500x500.jpg");'></span>
+                                        <span class="no-border-radius"
+                                              style='background-image: url("https://i1.sndcdn.com/artworks-000282078677-wnv9pv-t500x500.jpg");'></span>
                                     </div>
                                 </td>
                                 <td>In the end</td>
@@ -121,7 +129,8 @@
                     </div>
 
                     <ul style="overflow: scroll;" class="track-list ml-1 row">
-                        <li id="card" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FPost%20Malone%20Swae%20Lee%20-%20Sunflower%20(Spider-Man%20Into%20the%20Spider-Verse).mp3?alt=media&token=27973f3a-451c-4070-bce0-9647ecf6775f"
+                        <li id="card"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FPost%20Malone%20Swae%20Lee%20-%20Sunflower%20(Spider-Man%20Into%20the%20Spider-Verse).mp3?alt=media&token=27973f3a-451c-4070-bce0-9647ecf6775f"
                             class="track-card song p-2">
                             <div class="artwork">
                                 <span style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
@@ -135,7 +144,8 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="track-card song p-2" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FYoung%20Dumb%20%20Broke%20%20Khalid%20%20Lyrics.mp3?alt=media&token=862389ba-6f03-409b-9645-81fd20d1852f">
+                        <li class="track-card song p-2"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FYoung%20Dumb%20%20Broke%20%20Khalid%20%20Lyrics.mp3?alt=media&token=862389ba-6f03-409b-9645-81fd20d1852f">
                             <div class="artwork">
                                 <span style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                             </div>
@@ -148,7 +158,8 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="track-card song p-2" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FPost%20Malone%20Swae%20Lee%20-%20Sunflower%20(Spider-Man%20Into%20the%20Spider-Verse).mp3?alt=media&token=27973f3a-451c-4070-bce0-9647ecf6775f">
+                        <li class="track-card song p-2"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FPost%20Malone%20Swae%20Lee%20-%20Sunflower%20(Spider-Man%20Into%20the%20Spider-Verse).mp3?alt=media&token=27973f3a-451c-4070-bce0-9647ecf6775f">
                             <div class="artwork">
                                 <span style='background-image: url("https://i1.sndcdn.com/artworks-000359430471-6jd8ty-t500x500.jpg");'></span>
                             </div>
@@ -161,7 +172,8 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="track-card song p-2" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FLauv%20-%20I%20Like%20Me%20Better%20%5BOfficial%20Audio%5D%20(1).mp3?alt=media&token=9dc8f558-3ccb-4edb-a3ae-0d1676cd8588">
+                        <li class="track-card song p-2"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FLauv%20-%20I%20Like%20Me%20Better%20%5BOfficial%20Audio%5D%20(1).mp3?alt=media&token=9dc8f558-3ccb-4edb-a3ae-0d1676cd8588">
                             <div class="artwork">
                                 <span style='background-image: url("https://i1.sndcdn.com/artworks-000239465971-hnu0g4-t500x500.jpg");'></span>
                             </div>
@@ -174,7 +186,8 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="track-card song p-2" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FMarshmello%20ft.%20Bastille%20-%20Happier%20(Official%20Lyric%20Video).mp3?alt=media&token=6f0635a8-1e04-4bd5-9ea9-a3f5cba19a7a">
+                        <li class="track-card song p-2"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FMarshmello%20ft.%20Bastille%20-%20Happier%20(Official%20Lyric%20Video).mp3?alt=media&token=6f0635a8-1e04-4bd5-9ea9-a3f5cba19a7a">
                             <div class="artwork">
                                 <span style='background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Marshmello_and_Bastille_Happier.png/220px-Marshmello_and_Bastille_Happier.png");'></span>
                             </div>
@@ -191,7 +204,8 @@
                             <div class="artwork">
                                 <span style='background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Avicii_Wake_Me_Up_Official_Single_Cover.png/220px-Avicii_Wake_Me_Up_Official_Single_Cover.png");'></span>
                             </div>
-                            <div class="info" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/In%20The%20End%20-%20Linkin%20Park.mp3?alt=media&token=8d74a9c1-77a5-4d38-baf4-d8bb4113f34f">
+                            <div class="info"
+                                 src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/In%20The%20End%20-%20Linkin%20Park.mp3?alt=media&token=8d74a9c1-77a5-4d38-baf4-d8bb4113f34f">
                                 <a href="" class="title">
                                     <p>Wake me up</p>
                                 </a>
@@ -220,7 +234,8 @@
 
                     <ul style="overflow: scroll;" class="track-list ml-1 row">
 
-                        <li class="track-card song p-2" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FPost%20Malone%20Swae%20Lee%20-%20Sunflower%20(Spider-Man%20Into%20the%20Spider-Verse).mp3?alt=media&token=27973f3a-451c-4070-bce0-9647ecf6775f">
+                        <li class="track-card song p-2"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FPost%20Malone%20Swae%20Lee%20-%20Sunflower%20(Spider-Man%20Into%20the%20Spider-Verse).mp3?alt=media&token=27973f3a-451c-4070-bce0-9647ecf6775f">
                             <div class="artwork">
                                 <span style='background-image: url("https://i1.sndcdn.com/artworks-000359430471-6jd8ty-t500x500.jpg");'></span>
                             </div>
@@ -233,7 +248,8 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="track-card song p-2" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FLauv%20-%20I%20Like%20Me%20Better%20%5BOfficial%20Audio%5D%20(1).mp3?alt=media&token=9dc8f558-3ccb-4edb-a3ae-0d1676cd8588">
+                        <li class="track-card song p-2"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FLauv%20-%20I%20Like%20Me%20Better%20%5BOfficial%20Audio%5D%20(1).mp3?alt=media&token=9dc8f558-3ccb-4edb-a3ae-0d1676cd8588">
                             <div class="artwork">
                                 <span style='background-image: url("https://i1.sndcdn.com/artworks-000239465971-hnu0g4-t500x500.jpg");'></span>
                             </div>
@@ -246,7 +262,8 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="track-card song p-2" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FMarshmello%20ft.%20Bastille%20-%20Happier%20(Official%20Lyric%20Video).mp3?alt=media&token=6f0635a8-1e04-4bd5-9ea9-a3f5cba19a7a">
+                        <li class="track-card song p-2"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FMarshmello%20ft.%20Bastille%20-%20Happier%20(Official%20Lyric%20Video).mp3?alt=media&token=6f0635a8-1e04-4bd5-9ea9-a3f5cba19a7a">
                             <div class="artwork">
                                 <span style='background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Marshmello_and_Bastille_Happier.png/220px-Marshmello_and_Bastille_Happier.png");'></span>
                             </div>
@@ -259,7 +276,8 @@
                                 </a>
                             </div>
                         </li>
-                        <li id="card" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FPost%20Malone%20Swae%20Lee%20-%20Sunflower%20(Spider-Man%20Into%20the%20Spider-Verse).mp3?alt=media&token=27973f3a-451c-4070-bce0-9647ecf6775f"
+                        <li id="card"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FPost%20Malone%20Swae%20Lee%20-%20Sunflower%20(Spider-Man%20Into%20the%20Spider-Verse).mp3?alt=media&token=27973f3a-451c-4070-bce0-9647ecf6775f"
                             class="track-card song p-2">
                             <div class="artwork">
                                 <span style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
@@ -273,7 +291,8 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="track-card song p-2" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FYoung%20Dumb%20%20Broke%20%20Khalid%20%20Lyrics.mp3?alt=media&token=862389ba-6f03-409b-9645-81fd20d1852f">
+                        <li class="track-card song p-2"
+                            src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FYoung%20Dumb%20%20Broke%20%20Khalid%20%20Lyrics.mp3?alt=media&token=862389ba-6f03-409b-9645-81fd20d1852f">
                             <div class="artwork">
                                 <span style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                             </div>
@@ -291,7 +310,8 @@
                             <div class="artwork">
                                 <span style='background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Avicii_Wake_Me_Up_Official_Single_Cover.png/220px-Avicii_Wake_Me_Up_Official_Single_Cover.png");'></span>
                             </div>
-                            <div class="info" src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/In%20The%20End%20-%20Linkin%20Park.mp3?alt=media&token=8d74a9c1-77a5-4d38-baf4-d8bb4113f34f">
+                            <div class="info"
+                                 src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/In%20The%20End%20-%20Linkin%20Park.mp3?alt=media&token=8d74a9c1-77a5-4d38-baf4-d8bb4113f34f">
                                 <a href="" class="title">
                                     <p>Wake me up</p>
                                 </a>
@@ -334,7 +354,8 @@
                         <tr>
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span>
                                 </div>
                             </td>
                             <td>444th Air Base Hanger</td>
@@ -358,7 +379,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FKhalid%20-%20Better%20(Official%20Video).mp3?alt=media&token=558036d1-ffad-441a-a835-16b8b1b83a5c">
                             <th scope="row">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                                 </div>
                             </th>
                             <td class="td-nowrap">Better</td>
@@ -380,7 +402,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FMarshmello%20ft.%20Bastille%20-%20Happier%20(Official%20Lyric%20Video).mp3?alt=media&token=6f0635a8-1e04-4bd5-9ea9-a3f5cba19a7a">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000390226092-1vzsos-t500x500.jpg")'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000390226092-1vzsos-t500x500.jpg")'></span>
                                 </div>
                             </td>
                             <td>Happier</td>
@@ -403,7 +426,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FLauv%20-%20I%20Like%20Me%20Better%20%5BOfficial%20Audio%5D%20(1).mp3?alt=media&token=9dc8f558-3ccb-4edb-a3ae-0d1676cd8588">
                             <td scope="row">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-8n24PQuaQZWL-0-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-8n24PQuaQZWL-0-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td class="td-nowrap">I like me better</td>
@@ -414,7 +438,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/In%20The%20End%20-%20Linkin%20Park.mp3?alt=media&token=8d74a9c1-77a5-4d38-baf4-d8bb4113f34f">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000282078677-wnv9pv-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000282078677-wnv9pv-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td>In the end</td>
@@ -425,7 +450,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FIUN%20Briefing%20-%20Ace%20Combat%207%20Original%20Soundtrack%20(1).mp3?alt=media&token=d8bb4c8e-7c67-4811-954e-2b7fce1bb649">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span>
                                 </div>
                             </td>
                             <!-- <td style="text-align: center">2.</td> -->
@@ -448,7 +474,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FBazzi%20%E2%80%93%20Mine%20(Lyrics)%20%F0%9F%8E%B5.mp3?alt=media&token=8af98424-42da-4599-b0c3-30babb10a61e">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000334054377-fgpyvw-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000334054377-fgpyvw-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td>Mine</td>
@@ -472,7 +499,8 @@
                             id="list1">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td>Sunflower</td>
@@ -495,7 +523,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FYoung%20Dumb%20%20Broke%20%20Khalid%20%20Lyrics.mp3?alt=media&token=862389ba-6f03-409b-9645-81fd20d1852f">
                             <th scope="row">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                                 </div>
                             </th>
                             <td class="td-nowrap">Young dumb and broke</td>
@@ -525,7 +554,8 @@
                     <ul style="overflow: scroll;" class="track-list mx-0 row">
                         <li id="sample-album" class="track-card p-2">
                             <div class="artwork">
-                                <a href="#"><span style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span></a>
+                                <a href="#"><span
+                                            style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span></a>
                             </div>
                             <div class="info">
                                 <a href="#" class="title" title="Ace Combat 7 Original Sound Tracks (2019)">
@@ -618,7 +648,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2F444th%20Air%20Base%20Hangar%20-%20Ace%20Combat%207%20Original%20Soundtrack.mp3?alt=media&token=3bf4497d-73f2-416e-b957-3e88a5a4e472">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span>
                                 </div>
                             </td>
                             <td>444th Air Base Hanger</td>
@@ -629,7 +660,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FIUN%20Briefing%20-%20Ace%20Combat%207%20Original%20Soundtrack%20(1).mp3?alt=media&token=d8bb4c8e-7c67-4811-954e-2b7fce1bb649">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span>
                                 </div>
                             </td>
                             <!-- <td style="text-align: center">2.</td> -->
@@ -665,7 +697,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FKhalid%20-%20Better%20(Official%20Video).mp3?alt=media&token=558036d1-ffad-441a-a835-16b8b1b83a5c">
                             <th scope="row">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                                 </div>
                             </th>
                             <td class="td-nowrap">Better</td>
@@ -676,7 +709,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FMarshmello%20ft.%20Bastille%20-%20Happier%20(Official%20Lyric%20Video).mp3?alt=media&token=6f0635a8-1e04-4bd5-9ea9-a3f5cba19a7a">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000390226092-1vzsos-t500x500.jpg")'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000390226092-1vzsos-t500x500.jpg")'></span>
                                 </div>
                             </td>
                             <td>Happier</td>
@@ -687,7 +721,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FYoung%20Dumb%20%20Broke%20%20Khalid%20%20Lyrics.mp3?alt=media&token=862389ba-6f03-409b-9645-81fd20d1852f">
                             <th scope="row">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                                 </div>
                             </th>
                             <td class="td-nowrap">Young dumb and broke</td>
@@ -722,7 +757,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FLauv%20-%20I%20Like%20Me%20Better%20%5BOfficial%20Audio%5D%20(1).mp3?alt=media&token=9dc8f558-3ccb-4edb-a3ae-0d1676cd8588">
                             <td scope="row">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-8n24PQuaQZWL-0-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-8n24PQuaQZWL-0-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td class="td-nowrap">I like me better</td>
@@ -734,7 +770,8 @@
                             id="list1">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td>Sunflower</td>
@@ -769,7 +806,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/In%20The%20End%20-%20Linkin%20Park.mp3?alt=media&token=8d74a9c1-77a5-4d38-baf4-d8bb4113f34f">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000282078677-wnv9pv-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000282078677-wnv9pv-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td>In the end</td>
@@ -780,7 +818,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FBazzi%20%E2%80%93%20Mine%20(Lyrics)%20%F0%9F%8E%B5.mp3?alt=media&token=8af98424-42da-4599-b0c3-30babb10a61e">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000334054377-fgpyvw-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000334054377-fgpyvw-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td>Mine</td>
@@ -793,7 +832,6 @@
                 </div>
             </div>
             <!-- End live in texas Page -->
-
 
 
             <!-- artists page -->
@@ -810,7 +848,8 @@
                     <ul style="overflow: scroll;" class="track-list mx-0 row">
                         <li id="artist-keiki-kobayashi" class="track-card p-2">
                             <div class="artwork">
-                                <a href="#"><span style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span></a>
+                                <a href="#"><span
+                                            style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span></a>
                             </div>
                             <div class="info">
                                 <a href="#" class="title" title="Ace Combat 7 Original Sound Tracks (2019)">
@@ -820,7 +859,8 @@
                         </li>
                         <li id="artist-khalid" href="#" class="track-card p-2">
                             <div class="artwork">
-                                <a href="#"><span style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
+                                <a href="#"><span
+                                            style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                                 </a>
                             </div>
                             <div class="info">
@@ -868,7 +908,6 @@
                     </ul>
 
 
-
                     <!-- P -->
                     <div style="display: flex" class="px-2">
                         <h2 class="list-title px-3 pt-3 w-100">P</h2>
@@ -886,7 +925,6 @@
                             </div>
                         </li>
                     </ul>
-
 
 
                 </div>
@@ -912,7 +950,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FYoung%20Dumb%20%20Broke%20%20Khalid%20%20Lyrics.mp3?alt=media&token=862389ba-6f03-409b-9645-81fd20d1852f">
                             <th scope="row">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                                 </div>
                             </th>
                             <td class="td-nowrap">Young dumb and broke</td>
@@ -923,7 +962,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FKhalid%20-%20Better%20(Official%20Video).mp3?alt=media&token=558036d1-ffad-441a-a835-16b8b1b83a5c">
                             <th scope="row">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000224127351-4m2rkf-t500x500.jpg");'></span>
                                 </div>
                             </th>
                             <td class="td-nowrap">Better</td>
@@ -956,7 +996,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FMarshmello%20ft.%20Bastille%20-%20Happier%20(Official%20Lyric%20Video).mp3?alt=media&token=6f0635a8-1e04-4bd5-9ea9-a3f5cba19a7a">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000390226092-1vzsos-t500x500.jpg")'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000390226092-1vzsos-t500x500.jpg")'></span>
                                 </div>
                             </td>
                             <td>Happier</td>
@@ -967,7 +1008,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FBazzi%20%E2%80%93%20Mine%20(Lyrics)%20%F0%9F%8E%B5.mp3?alt=media&token=8af98424-42da-4599-b0c3-30babb10a61e">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-000334054377-fgpyvw-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000334054377-fgpyvw-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td>Mine</td>
@@ -1001,7 +1043,8 @@
                             id="list1">
                             <td scope="row" class="list-artwork">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-85AaCd8d3JAv-0-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td>Sunflower</td>
@@ -1034,7 +1077,8 @@
                         <tr src="https://firebasestorage.googleapis.com/v0/b/musicapp-4582e.appspot.com/o/mp3%2FLauv%20-%20I%20Like%20Me%20Better%20%5BOfficial%20Audio%5D%20(1).mp3?alt=media&token=9dc8f558-3ccb-4edb-a3ae-0d1676cd8588">
                             <td scope="row">
                                 <div class="artwork">
-                                    <span class="no-border-radius" style='background-image: url("https://i1.sndcdn.com/artworks-8n24PQuaQZWL-0-t500x500.jpg");'></span>
+                                    <span class="no-border-radius"
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-8n24PQuaQZWL-0-t500x500.jpg");'></span>
                                 </div>
                             </td>
                             <td class="td-nowrap">I like me better</td>
