@@ -18,10 +18,12 @@ class CreateSongsTable extends Migration
             $table->string('title');
             $table->string('image')->nullable();
             $table->string('url');
-            $table->string('artist')->default('Unknown');
-            $table->string('album')->default('Unknown');
+            $table->integer('artist_id')->unsigned();
+            $table->foreign('artist_id')->references('id')->on('artists');
+            $table->integer('album_id')->unsigned();
+            $table->foreign('album_id')->references('id')->on('albums');
             $table->string('duration')->nullable();
-            $table->string('count');
+            $table->integer('count');
             $table->timestamps();
         });
     }

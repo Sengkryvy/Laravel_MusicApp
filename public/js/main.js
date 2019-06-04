@@ -23,7 +23,7 @@ $(document).ready(function () {
         $(this).addClass("active-menu");
     })
 
-    //display page respond to selected menu
+    //display artist respond to selected menu
     $("#menu-explore").click(function () {
         $(".app #content").find(">div").not(".app .content #explore").addClass("hide");
         $("#explore").removeClass("hide");
