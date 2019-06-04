@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('pages.index');
 });
+
+Route::resources([
+    'artist' => 'ArtistController',
+    'album' => 'AlbumController',
+    'song' => 'SongController',
+    ]);

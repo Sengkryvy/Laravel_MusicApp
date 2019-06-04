@@ -110,29 +110,16 @@
     =
 </div>
 
-
-<script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyBEMSE2sV8hwILNdqp4AhPNcoiM9Qbm63k",
-        authDomain: "musicapp-4582e.firebaseapp.com",
-        databaseURL: "https://musicapp-4582e.firebaseio.com",
-        projectId: "musicapp-4582e",
-        storageBucket: "musicapp-4582e.appspot.com",
-        messagingSenderId: "1039434768076"
-    };
-    firebase.initializeApp(config);
-</script>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/playAndControl.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+<script src="{{ asset('js/jquery-1.11.1.min.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/playAndControl.js') }}"></script>
+<script src="{{ asset('https://code.jquery.com/jquery-3.3.1.slim.min.js') }}"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+<script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js') }}"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+<script src="{{ asset('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js') }}"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>

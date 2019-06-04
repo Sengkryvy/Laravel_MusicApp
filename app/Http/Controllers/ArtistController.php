@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Artist;
+use App\Http\Requests\ArtistRequest;
 use Illuminate\Http\Request;
+use PhpParser\Node\Stmt\Return_;
 
 class ArtistController extends Controller
 {
@@ -14,7 +16,8 @@ class ArtistController extends Controller
      */
     public function index()
     {
-        //
+        $artists = Artist::all();
+        return view('crud.artist.index', compact('artists'));
     }
 
     /**
@@ -24,7 +27,7 @@ class ArtistController extends Controller
      */
     public function create()
     {
-        //
+        return view('crud.artist.create');
     }
 
     /**
@@ -33,9 +36,12 @@ class ArtistController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ArtistRequest $request)
     {
-        //
+        $request['image'] = $request->image_url;
+        unset($request['image_url']);
+        Artist::create($request->all());
+        return "Success";
     }
 
     /**
