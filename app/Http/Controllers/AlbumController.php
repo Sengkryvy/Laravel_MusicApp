@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Album;
+use App\Artist;
+use App\Http\Requests\AlbumRequest;
 use Illuminate\Http\Request;
 
 class AlbumController extends Controller
@@ -14,7 +16,9 @@ class AlbumController extends Controller
      */
     public function index()
     {
-        //
+        $albums = Album::all();
+        $artists = Artist::all();
+        return view('crud.album.index', compact('albums', 'artists'));
     }
 
     /**
@@ -24,7 +28,8 @@ class AlbumController extends Controller
      */
     public function create()
     {
-        //
+        $artists = Artist::all();
+        return view('crud.album.create', compact('artists'));
     }
 
     /**
@@ -33,9 +38,10 @@ class AlbumController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(AlbumRequest $request)
     {
-        //
+        Album::create($request->all());
+        return redirect()->route('album.index')->with('success', 'Album was successfully created.');
     }
 
     /**
@@ -69,7 +75,8 @@ class AlbumController extends Controller
      */
     public function update(Request $request, Album $album)
     {
-        //
+        $album->update($request->all());
+        return redirect()->route('album.index')->with('success', 'Album was successfully updated .');
     }
 
     /**
@@ -80,6 +87,7 @@ class AlbumController extends Controller
      */
     public function destroy(Album $album)
     {
-        //
+        $album->delete();
+        return redirect()->route('album.index')->with('success', 'Album was successfully deleted.');
     }
 }

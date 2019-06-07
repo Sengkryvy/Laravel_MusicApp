@@ -41,7 +41,7 @@ class ArtistController extends Controller
         $request['image'] = $request->image_url;
         unset($request['image_url']);
         Artist::create($request->all());
-        return route('artist.index')->with('success', 'Category was successfully created.');
+        return redirect()->route('artist.index')->with('success', 'Category was successfully created.');
     }
 
     /**
@@ -78,7 +78,7 @@ class ArtistController extends Controller
         $request['image'] = $request->image_url;
         unset($request['image_url']);
         $artist->update($request->all());
-        return route('artist.index')->with('success', 'Category was successfully updated.');
+        return redirect()->route('artist.index')->with('success', 'Category was successfully updated.');
     }
 
     /**

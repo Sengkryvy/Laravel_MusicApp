@@ -2,6 +2,9 @@
     background: rgba(47, 46, 50, 0.3);
 }
 
+option {
+    color: black;
+}
 /*.form-control {*/
     /*background: rgba(75, 75, 75, 0.22);*/
 /*}*/

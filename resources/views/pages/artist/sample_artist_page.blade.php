@@ -92,7 +92,7 @@
 
 <!-- Post Malone artist -->
 <div id="post-malone" class="px-2 hide">
-    <h1 class="list-title px-2 pt-2 w-100">Marshmello</h1>
+    <h1 class="list-title px-2 pt-2 w-100">Post Melon</h1>
     <br>
     <div class="row list-songs">
         <table class="table table-hover tab-nowrap col-12">
@@ -127,7 +127,7 @@
 
 <!-- Lauv artist -->
 <div id="lauv" class="px-2 hide">
-    <h1 class="list-title px-2 pt-2 w-100">Marshmello</h1>
+    <h1 class="list-title px-2 pt-2 w-100">Lauv</h1>
     <br>
     <div class="row list-songs">
         <table class="table table-hover tab-nowrap col-12">

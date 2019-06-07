@@ -28,9 +28,9 @@
 
             {{--<li><a id="menu-explore" class="row align-items-center active-menu" href="#"><i--}}
                             {{--class="material-icons active-menu">explore</i>Explore</a></li>--}}
-            <li><a id="menu-songs" class="row align-items-center" href="#"><i class="material-icons">music_note</i>Songs</a>
+            <li><a id="menu-songs" class="row align-items-center" href="{{ route('song.index') }}"><i class="material-icons">music_note</i>Songs</a>
             </li>
-            <li><a id="menu-albums" class="row align-items-center" href="#"><i class="material-icons">library_music
+            <li><a id="menu-albums" class="row align-items-center" href="{{ route('album.index') }}"><i class="material-icons">library_music
                     </i>Albums</a></li>
             <li><a id="menu-artists" class="row align-items-center" href="{{ route('artist.index') }}"><i class="material-icons">explore</i>Artists</a>
             </li>

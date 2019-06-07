@@ -178,7 +178,7 @@
                 <td scope="row" class="list-artwork">
                     <div class="artwork">
                                     <span class="no-border-radius"
-                                          style='background-image: url("https://i1.sndcdn.com/artworks-000282078677-wnv9pv-t500x500.jpg");'></span>
+                                              style='background-image: url("https://i1.sndcdn.com/artworks-000282078677-wnv9pv-t500x500.jpg");'></span>
                     </div>
                 </td>
                 <td>In the end</td>

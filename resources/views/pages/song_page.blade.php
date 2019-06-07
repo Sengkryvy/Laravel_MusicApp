@@ -26,7 +26,7 @@
                 <td scope="row" class="list-artwork">
                     <div class="artwork">
                                     <span class="no-border-radius"
-                                          style='background-image: url("https://i.imgur.com/5u6JeKZ.png");'></span>
+                                          style='background-image: url("https://i1.sndcdn.com/artworks-000334054377-fgpyvw-t500x500.jpg");'></span>
                     </div>
                 </td>
                 <td>444th Air Base Hanger</td>
