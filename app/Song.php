@@ -6,10 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Song extends Model
 {
-    public function Album() {
-        return $this->belongsTo('Album');
+    protected $fillable = [
+        'title', 'url', 'artist_id', 'album_id'
+    ];
+    public function album() {
+        return $this->belongsTo(Album::class);
     }
-    public function Artist() {
-        return $this->belongsTo('Artist');
+    public function artist() {
+        return $this->belongsTo(Artist::class);
     }
 }

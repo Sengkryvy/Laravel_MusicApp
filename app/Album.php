@@ -10,7 +10,7 @@ class Album extends Model
         'title', 'artist_id', 'album_cover', 'description'
     ];
 
-    public function Songs() {
+    public function songs() {
         return $this->hasMany('song');
     }
 }

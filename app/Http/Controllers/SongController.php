@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Album;
+use App\Artist;
 use App\Song;
 use Illuminate\Http\Request;
 
@@ -14,7 +16,8 @@ class SongController extends Controller
      */
     public function index()
     {
-        //
+        $songs = Song::all();
+        return view('crud.song.index', compact('songs'));
     }
 
     /**
@@ -24,7 +27,9 @@ class SongController extends Controller
      */
     public function create()
     {
-        //
+        $albums = Album::all();
+        $artists = Artist::all();
+        return view('crud.song.create', compact('albums', 'artists'));
     }
 
     /**
@@ -35,7 +40,8 @@ class SongController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Song::create($request->all());
+        return redirect()->route('song.index');
     }
 
     /**
