@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9904e39e-0b08-491f-945d-2c76713d47da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/music_app.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/crud/song/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Album.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Album.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Artist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SongController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SongController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Song.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Song.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/crud/song/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/crud/song/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/explore_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/explore_page.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +34,7 @@
           <entry key="css" value="5" />
           <entry key="env" value="1" />
           <entry key="js" value="7" />
-          <entry key="php" value="101" />
+          <entry key="php" value="103" />
           <entry key="sql" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -48,10 +42,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="Blade" value="54" />
+          <entry key="Blade" value="55" />
           <entry key="CSS" value="5" />
           <entry key="JavaScript" value="7" />
-          <entry key="PHP" value="47" />
+          <entry key="PHP" value="48" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SQL" value="1" />
         </counts>
@@ -59,55 +53,33 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="61" />
-          <entry key="dummy" value="1" />
+          <entry key="dummy" value="13" />
           <entry key="env" value="17" />
           <entry key="js" value="462" />
-          <entry key="php" value="4949" />
+          <entry key="php" value="5473" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="17" />
-          <entry key="Blade" value="2439" />
+          <entry key="Blade" value="2680" />
           <entry key="CSS" value="61" />
           <entry key="JavaScript" value="462" />
-          <entry key="PHP" value="2510" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PHP" value="2793" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/crud/song/index.blade.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="289">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
               <folding>
-                <element signature="e#1626#1691#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/song_page.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#td#0;n#tr#0;n#tbody#2;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#th#0;n#tr#0;n#tbody#5;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,38 +88,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/pages/explore_page.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SongController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="459">
+              <caret line="99" column="43" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
               <folding>
-                <element signature="e#40#54#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -168,6 +115,7 @@
       <find>remove</find>
       <find>duration</find>
       <find>song</find>
+      <find>$song</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,7 +128,6 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_06_04_035346_update_songs_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/explore_page.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/album_page.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/sample_album_page.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/artist_page.blade.php" />
@@ -213,8 +160,10 @@
         <option value="$PROJECT_DIR$/app/Album.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SongController.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/SongRequest.php" />
-        <option value="$PROJECT_DIR$/resources/views/crud/song/index.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/crud/song/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/explore_page.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
       </list>
     </option>
   </component>
@@ -326,9 +275,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -377,37 +326,6 @@
               <item name="Music_App" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music_App" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music_App" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-              <item name="album" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music_App" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-              <item name="artist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music_App" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-              <item name="song" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Music_App" type="b2602c69:ProjectViewProjectNode" />
@@ -474,12 +392,12 @@
       <workItem from="1559613746690" duration="2249000" />
       <workItem from="1559616465968" duration="33044000" />
       <workItem from="1559869840468" duration="13015000" />
-      <workItem from="1559920783522" duration="7024000" />
+      <workItem from="1559920783522" duration="12483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72891000" />
+    <option name="totallyTimeSpent" value="78350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -500,7 +418,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.27114093" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932885" visible="true" weight="0.2738255" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932885" weight="0.2738255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -753,6 +671,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/music_app.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2856" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/song_page.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
@@ -764,32 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/music_app.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2856" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/crud/song/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#1626#1691#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/explore_page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -803,6 +704,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/crud/song/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#1626#1691#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -812,8 +723,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="102">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/explore_page.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="99" column="43" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

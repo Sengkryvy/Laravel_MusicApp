@@ -12,10 +12,11 @@
 */
 
 Route::get('/', function () {
-    return route('page.index');
+    return redirect()->route('page.index');
 });
 
 Route::resources([
+    'page' => 'PageController',
     'artist' => 'ArtistController',
     'album' => 'AlbumController',
     'song' => 'SongController',

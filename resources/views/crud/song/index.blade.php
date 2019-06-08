@@ -27,7 +27,6 @@
                             </thead>
                             <tbody>
                             @foreach($songs as $song)
-                                {{--{{ dd($song) }}--}}
                                 <tr src="{{ $song->url }}">
                                     <th scope="row">
                                         <div class="artwork">
