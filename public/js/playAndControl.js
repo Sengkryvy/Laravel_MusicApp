@@ -219,7 +219,7 @@ function setPlayingInfo() {
         // track progress timer
         trackProgressTimer = setInterval(function () {
             volume = $("#volume").val();
-            console.log(volume);
+            // console.log(volume);
             song.volume = volume/100;
             var endMinutes = Math.floor(song.duration / 60);
             var endSeconds = Math.ceil(song.duration - minutes * 60);

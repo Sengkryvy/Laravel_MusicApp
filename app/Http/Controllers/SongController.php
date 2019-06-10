@@ -6,6 +6,7 @@ use App\Album;
 use App\Artist;
 use App\Song;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
 class SongController extends Controller
 {
@@ -35,7 +36,7 @@ class SongController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -47,7 +48,7 @@ class SongController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Song  $song
+     * @param  \App\Song $song
      * @return \Illuminate\Http\Response
      */
     public function show(Song $song)
@@ -58,7 +59,7 @@ class SongController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Song  $song
+     * @param  \App\Song $song
      * @return \Illuminate\Http\Response
      */
     public function edit(Song $song)
@@ -69,19 +70,26 @@ class SongController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Song  $song
+     * @param  \Illuminate\Http\Request $request
+     * @param  \App\Song $song
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Song $song)
     {
-        //
+
+    }
+
+    public function updateCount(Request $request)
+    {
+        $song = Song::find($request->id);
+        $song->count++;
+        $song->save();
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Song  $song
+     * @param  \App\Song $song
      * @return \Illuminate\Http\Response
      */
     public function destroy(Song $song)

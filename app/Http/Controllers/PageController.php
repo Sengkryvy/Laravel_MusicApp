@@ -14,11 +14,19 @@ class PageController extends Controller
      */
     public function index()
     {
-        $weeklyCharts = Song::orderBy('updated_at', 'DESC')->take(7)->get();
-        $trendings = Song::orderBy('updated_at', 'DESC')->take(6)->get();
+        $weeklyCharts = Song::orderBy('count', 'DESC')->take(7)->get();
+        $trendings = Song::orderBy('count', 'DESC')->take(6)->get();
         $recentlyAddeds = Song::orderBy('created_at', 'DESC')->take(6)->get();
         return view('pages.index', compact('weeklyCharts', 'trendings', 'recentlyAddeds'));
     }
+
+//    public function play(Song $song)
+//    {
+//        $weeklyCharts = Song::orderBy('count')->take(7)->get();
+//        $trendings = Song::orderBy('count', 'DESC')->take(6)->get();
+//        $recentlyAddeds = Song::orderBy('created_at', 'DESC')->take(6)->get();
+//        return view('pages.index', compact('weeklyCharts', 'trendings', 'recentlyAddeds'));
+//    }
 
     /**
      * Show the form for creating a new resource.

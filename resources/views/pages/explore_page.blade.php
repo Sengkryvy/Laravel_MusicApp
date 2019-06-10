@@ -15,7 +15,7 @@
                 </thead>
                 <tbody>
                 @foreach($weeklyCharts as $weeklyChart)
-                    <tr src="{{ $weeklyChart->url }}">
+                    <tr class="list" src="{{ $weeklyChart->url }}">
                         <th scope="row">
                             <div class="artwork">
                                         <span class="no-border-radius"
@@ -26,6 +26,7 @@
                         <td>{{ $weeklyChart->artist->career_name }}</td>
                         <td>{{ $weeklyChart->album->title }}</td>
                         <td></td>
+                        <input type="hidden" value="{{ $weeklyChart->id }}">
                     </tr>
                 @endforeach
                 </tbody>
@@ -63,6 +64,7 @@
                             <p>{{ $recentlyAdded->artist->career_name }}</p>
                         </a>
                     </div>
+                    <input type="hidden" value="{{ $recentlyAdded->id }}">
                 </li>
             @endforeach
 
@@ -83,7 +85,6 @@
                 <button class="material-icons">keyboard_arrow_right</button>
             </section> -->
         </div>
-
         <ul style="overflow: scroll;" class="track-list ml-1 row">
             @foreach($trendings as $trending)
                 <li id="card"
@@ -100,6 +101,7 @@
                             <p>{{ $trending->artist->career_name }}</p>
                         </a>
                     </div>
+                    <input type="hidden" value="{{ $trending->id }}">
                 </li>
             @endforeach
         </ul>

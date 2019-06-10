@@ -15,6 +15,10 @@ Route::get('/', function () {
     return redirect()->route('page.index');
 });
 
+Route::get('/page/play', 'PageController@play')->name('page.play');
+Route::post('/song/count/{id}', 'SongController@updateCount');
+
+
 Route::resources([
     'page' => 'PageController',
     'artist' => 'ArtistController',
