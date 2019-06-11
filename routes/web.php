@@ -13,11 +13,17 @@
 
 Route::get('/', function () {
     return redirect()->route('page.index');
+//    return view('pages.song_page');
 });
 
 Route::get('/page/play', 'PageController@play')->name('page.play');
+
 Route::post('/song/count/{id}', 'SongController@updateCount');
 
+Route::get('/song/all', 'PageController@allSongs');
+Route::get('/album/all', 'PageController@allAlbums');
+Route::get('/artist/all', 'PageController@allArtists');
+Route::get('/explore', 'PageController@explore');
 
 Route::resources([
     'page' => 'PageController',

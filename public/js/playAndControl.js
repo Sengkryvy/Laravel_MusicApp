@@ -35,7 +35,7 @@ $(document).ready(function () {
 
 
     // //song selection in card
-    $(".track-card.song").click(function () {
+    $(document).on('click', ".track-card.song", function () {
         current = $(this);
         //set info to object song
         // $(".list-songs table tbody tr").removeClass("current-song");
@@ -48,10 +48,9 @@ $(document).ready(function () {
 
 
     //song selection in list
-    $(".list-songs table tbody tr").click(function () {
+    $(document).on('click', ".list-songs table tbody tr", function () {
         // get and play song
         current = $(this);
-
         //set info to object song
         setSongInList(current);
         playSong();
@@ -65,7 +64,7 @@ $(document).ready(function () {
     })
 
     // pause and play song
-    $("#play, #pause").click(function (e) {
+    $(document).on('click', "#play, #pause", function (e) {
         var playingStatus = $(".play-progress .control #play i");
         if (playingStatus.text() == "play_arrow") {
             playingStatus.text("pause");
@@ -81,7 +80,7 @@ $(document).ready(function () {
     })
 
     //go to next song
-    $("#next").click(function () {
+    $(document).on('click', "#next", function () {
         var section = current.parent().parent().parent();
         var temp = current.parent();
         //control for weekly chart list
@@ -124,7 +123,7 @@ $(document).ready(function () {
     })
 
     //go to prev song
-    $("#prev").click(function () {
+    $(document).on('click', "#prev", function () {
         var section = current.parent().parent().parent();
         var temp = current.parent();
         //control for weekly chart list

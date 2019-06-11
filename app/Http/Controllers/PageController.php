@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Album;
+use App\Artist;
 use App\Song;
 use Illuminate\Http\Request;
 
@@ -20,6 +22,37 @@ class PageController extends Controller
         return view('pages.index', compact('weeklyCharts', 'trendings', 'recentlyAddeds'));
     }
 
+    public function explore()
+    {
+        $weeklyCharts = Song::orderBy('count', 'DESC')->take(7)->get();
+        $trendings = Song::orderBy('count', 'DESC')->take(6)->get();
+        $recentlyAddeds = Song::orderBy('created_at', 'DESC')->take(6)->get();
+        $views = view('pages.explore.explore_page', compact('weeklyCharts', 'trendings', 'recentlyAddeds'))->render();
+        return response($views);
+
+    }
+
+    function allSongs()
+    {
+        $songs = Song::orderBy('title')->get();
+        $views = view("pages.song.song_page", compact('songs'))->render();
+        return response($views);
+    }
+
+    function allAlbums()
+    {
+        $albums = Album::orderBy('created_at')->get();
+        $views = view("pages.album.album_page", compact('albums'))->render();
+        return response($views);
+    }
+
+    function allArtists()
+    {
+        $artists = Artist::orderBy('created_at')->get();
+        $views = view("pages.artist.artist_page", compact('artists'))->render();
+        return response($views);
+    }
+
 //    public function play(Song $song)
 //    {
 //        $weeklyCharts = Song::orderBy('count')->take(7)->get();
@@ -27,6 +60,7 @@ class PageController extends Controller
 //        $recentlyAddeds = Song::orderBy('created_at', 'DESC')->take(6)->get();
 //        return view('pages.index', compact('weeklyCharts', 'trendings', 'recentlyAddeds'));
 //    }
+
 
     /**
      * Show the form for creating a new resource.
@@ -41,7 +75,7 @@ class PageController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -52,7 +86,7 @@ class PageController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -63,7 +97,7 @@ class PageController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -74,8 +108,8 @@ class PageController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -86,7 +120,7 @@ class PageController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)

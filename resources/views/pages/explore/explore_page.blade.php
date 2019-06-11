@@ -1,4 +1,4 @@
-<div id="explore" class="">
+<div id="explore" class="container-fluid">
     <!-- weekly chart -->
     <div id="weekly-chart" class="px-2">
         <h1 class="list-title px-2 py-2 w-100">Weekly Charts</h1>

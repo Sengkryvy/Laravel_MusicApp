@@ -49,10 +49,10 @@
     </nav>
     <!-- end of top navbar -->
 
-{{--Content Section--}}
-@yield('content')
+    {{--Content Section--}}
+    @yield('content')
 
-<!-- End of content Section-->
+    <!-- End of content Section-->
 
     <!-- bottom navbar -->
     <nav class="navbar col-12 nav-bottom">
