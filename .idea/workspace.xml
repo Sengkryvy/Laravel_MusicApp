@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9904e39e-0b08-491f-945d-2c76713d47da" name="Default Changelist" comment="" />
+    <list default="true" id="9904e39e-0b08-491f-945d-2c76713d47da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,15 +113,38 @@
     <session id="-1672117578">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="env" value="1" />
+          <entry key="js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key=".env file" value="1" />
+          <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="env" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key=".env file" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -187,7 +212,6 @@
         <option value="$PROJECT_DIR$/resources/views/pages/explore/explore_page.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/song/song_page.blade.php" />
         <option value="$PROJECT_DIR$/app/Album.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/js/playAndControl.js" />
         <option value="$PROJECT_DIR$/resources/views/pages/album/album_page.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/ajax2.blade.php" />
@@ -199,8 +223,9 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/ajax.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/template.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/resources/views/crud/template.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
       </list>
     </option>
   </component>
@@ -327,6 +352,17 @@
               <item name="Laravel_MusicApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laravel_MusicApp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Laravel_MusicApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_MusicApp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laravel_MusicApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel_MusicApp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -344,19 +380,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\I4\Semester II\Interner Programming S2\Project\Git Clone\Laravel_MusicApp-master\Laravel_MusicApp-master\app\Http\Controllers" />
-      <recent name="D:\I4\Semester II\Interner Programming S2\Project\Git Clone\Laravel_MusicApp-master\Laravel_MusicApp-master\resources\views\pages" />
-      <recent name="D:\I4\Semester II\Interner Programming S2\Project\Git Clone\Laravel_MusicApp-master\Laravel_MusicApp-master\resources\views\pages\song" />
-      <recent name="D:\I4\Semester II\Interner Programming S2\Project\Git Clone\Laravel_MusicApp-master\Laravel_MusicApp-master" />
-      <recent name="D:\I4\Semester II\Interner Programming S2\Project\Music App\Music_App\db" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\I4\Semester II\Interner Programming S2\Project\Git Clone\Laravel_MusicApp-master\Laravel_MusicApp-master\resources\views\pages" />
       <recent name="D:\I4\Semester II\Interner Programming S2\Project\Music App\Music_App\resources\views\pages\song" />
       <recent name="D:\I4\Semester II\Interner Programming S2\Project\Music App\Music_App\resources\views\pages\explore" />
       <recent name="D:\I4\Semester II\Interner Programming S2\Project\Music App\Music_App\resources\views\pages\artist" />
       <recent name="D:\I4\Semester II\Interner Programming S2\Project\Music App\Music_App\resources\views\pages\album" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Semester II\IP\Music_APP\Laravel_MusicApp" />
+      <recent name="D:\I4\Semester II\Interner Programming S2\Project\Git Clone\Laravel_MusicApp-master\Laravel_MusicApp-master\app\Http\Controllers" />
+      <recent name="D:\I4\Semester II\Interner Programming S2\Project\Git Clone\Laravel_MusicApp-master\Laravel_MusicApp-master\resources\views\pages" />
+      <recent name="D:\I4\Semester II\Interner Programming S2\Project\Git Clone\Laravel_MusicApp-master\Laravel_MusicApp-master\resources\views\pages\song" />
+      <recent name="D:\I4\Semester II\Interner Programming S2\Project\Git Clone\Laravel_MusicApp-master\Laravel_MusicApp-master" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -395,22 +431,23 @@
       <workItem from="1562129315935" duration="1044000" />
       <workItem from="1562130402535" duration="3141000" />
       <workItem from="1562143711188" duration="241000" />
+      <workItem from="1562144415288" duration="970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126186000" />
+    <option name="totallyTimeSpent" value="127156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19127516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -628,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.example" />
     <entry file="file://$PROJECT_DIR$/resources/views/pages/song/song_page.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -712,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/crud/template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -744,6 +767,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
