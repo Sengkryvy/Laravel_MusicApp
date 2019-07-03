@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Homepage</title>
 
+    <link rel="stylesheet" href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css') }}">
     <link rel="stylesheet" type="text/css"
           href="{{ asset('source/font/proxima-nova-web-fonts-master/proxima-nova-web-fonts-master/fonts/fonts.min.css') }}"/>
     <link href="{{ asset('https://fonts.googleapis.com/icon?family=Material+Icons') }}" rel="stylesheet">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="{{ asset('css/aside.css') }}">
     <link rel="stylesheet" href="{{ asset('css/player.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+
     {{--<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>--}}
 </head>
 
