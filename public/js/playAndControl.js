@@ -117,9 +117,9 @@ $(document).ready(function () {
             setSongInList(current);
         }
 
-        setPlayingInfo();
         playSong();
-        
+        setPlayingInfo();
+
     })
 
     //go to prev song
