@@ -24,39 +24,9 @@
             // alert(id);
         });
 
-        //show album-info and songs
-        $(document).on('click', '.album-card', function (e) {
-
-            id = $(this).children(':last-child').val();
-            // alert(id);
-            e.preventDefault();
-            $.ajaxSetup({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
-                }
-            });
-            $.ajax({
-                url: "{{ url('album/song/{id}') }}",
-                data: {
-                    id: id,
-                },
-                method: "GET",
-                success: function (data) {
-
-                    // alert(id);
-                    // $(".app #content").find(">div").remove();
-                    // $('#explore').addClass('hide');
-                    // $('#songs').append('<p>HELLO</p>')
-                    $('#content').html(data);
-                    console.log(data);
-
-                }
-            });
-        })
-
         //Side bar menu click
         $(document).on('click','#menu-songs', function(e) {
-            // $("#menu-songs").on('click', function (e) {
+        // $("#menu-songs").on('click', function (e) {
 
             e.preventDefault();
             $.ajaxSetup({
@@ -75,13 +45,13 @@
                     // $('#explore').addClass('hide');
                     // $('#songs').append('<p>HELLO</p>')
                     $('#content').html(data);
-                    // console.log(data);
+                    console.log(data);
 
                 }
             });
         })
-
         $(document).on('click','#menu-explore', function(e) {
+        // $("#menu-explore").on('click', function (e) {
             e.preventDefault();
             $.ajaxSetup({
                 headers: {
@@ -96,12 +66,14 @@
                 method: "GET",
                 success: function (data) {
                     $('#content').html(data);
-                    // console.log(data);
+                    console.log(data);
                 }
             });
         });
 
         $(document).on('click','#menu-albums', function(e) {
+            // $("#menu-explore").on('click', function (e) {
+            // alert("Album");
             e.preventDefault();
             $.ajaxSetup({
                 headers: {
@@ -116,32 +88,14 @@
                 method: "GET",
                 success: function (data) {
                     $('#content').html(data);
-
+                    console.log(data);
                 }
             });
-        });
-
-        {{--$(document).on('click','#menu-artists', function(e) {--}}
-            {{--e.preventDefault();--}}
-            {{--$.ajaxSetup({--}}
-                {{--headers: {--}}
-                    {{--'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')--}}
-                {{--}--}}
-            {{--});--}}
-            {{--$.ajax({--}}
-                {{--url: "{{ url('/artist/all') }}",--}}
-                {{--data: {--}}
-                    {{--// id: $(this).attr('id')--}}
-                {{--},--}}
-                {{--method: "GET",--}}
-                {{--success: function (data) {--}}
-                    {{--$('#content').html(data);--}}
-                    {{--// console.log(data);--}}
-                {{--}--}}
-            {{--});--}}
-        {{--});--}}
+        })
 
         $(document).on('click','#menu-artists', function(e) {
+            // $("#menu-explore").on('click', function (e) {
+            // alert("Album");
             e.preventDefault();
             $.ajaxSetup({
                 headers: {
@@ -156,30 +110,9 @@
                 method: "GET",
                 success: function (data) {
                     $('#content').html(data);
-                    // console.log(data);
+                    console.log(data);
                 }
             });
-        });
-
-        $(document).on('click','.artist-card', function(e) {
-            e.preventDefault();
-            var id = $(this).children(':last-child').val();
-            $.ajaxSetup({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
-                }
-            });
-            $.ajax({
-                url: "{{ url('/artist/song/{id}') }}",
-                data: {
-                    id: id,
-                },
-                method: "GET",
-                success: function (data) {
-                    $('#content').html(data);
-                    // console.log(data);
-                }
-            });
-        });
+        })
     });
 </script>

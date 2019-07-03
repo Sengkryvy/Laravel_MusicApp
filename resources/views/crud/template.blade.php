@@ -26,16 +26,12 @@
         <div id="bread" class="bread pt-3">Admin</div>
         <ul class="menu pt-0">
 
-            {{--<li><a id="menu-explore" class="row align-items-center active-menu" href="#"><i--}}
-                            {{--class="material-icons active-menu">explore</i>Explore</a></li>--}}
             <li><a id="menu-songs" class="row align-items-center" href="{{ route('song.index') }}"><i class="material-icons">music_note</i>Songs</a>
             </li>
             <li><a id="menu-albums" class="row align-items-center" href="{{ route('album.index') }}"><i class="material-icons">library_music
                     </i>Albums</a></li>
             <li><a id="menu-artists" class="row align-items-center" href="{{ route('artist.index') }}"><i class="material-icons">explore</i>Artists</a>
             </li>
-            <!-- <li><a class="row align-items-center" href="#"><i class="material-icons" style="max-width: 44px;">star_rate</i>Trending</a></li> -->
-            <!-- <li><a class="row align-items-center" href="#"><i class="material-icons">favorite</i>Liked</a></li> -->
         </ul>
     </aside>
     <!-- end of sidebar -->
@@ -44,7 +40,7 @@
     <nav id="nav-top" class="navbar col-12 nav-top">
         <div id="search" class="offset-lg-2 offset-md-3 col-12 col-lg-10 col-md-9">
             <!-- <input id="search-input" type="text" placeholder="Search.."> -->
-            <h1 id="title" style="margin-top: -7px;" class="text-center app-title">Music App</h1>
+            <h1 id="title" style="margin-top: -7px;" class="text-center app-title">Music App (admin)</h1>
         </div>
     </nav>
     <!-- end of top navbar -->

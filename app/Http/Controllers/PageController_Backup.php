@@ -39,7 +39,6 @@ class PageController extends Controller
         return response($views);
     }
 
-    //album
     function allAlbums()
     {
         $albums = Album::orderBy('created_at')->get();
@@ -47,26 +46,13 @@ class PageController extends Controller
         return response($views);
     }
 
-    function getAlbum(Request $request) {
-//        $album = Album::find($request->id)->songs;
-        $album = Album::find($request->id);
-        $views = view('pages.album.sample_album_page', compact('album'))->render();
-        return response($views);
-    }
-
-    //artist
     function allArtists()
     {
         $artists = Artist::orderBy('created_at')->get();
         $views = view("pages.artist.artist_page", compact('artists'))->render();
         return response($views);
     }
-    function getArtist(Request $request) {
-        $artist = Artist::find($request->id);
-        $views = view('pages.artist.sample_artist_page', compact('artist'))->render();
-        return response($views);
-    }
-
+    
 
     /**
      * Show the form for creating a new resource.
