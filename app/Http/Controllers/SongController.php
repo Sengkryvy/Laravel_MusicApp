@@ -64,7 +64,7 @@ class SongController extends Controller
      */
     public function edit(Song $song)
     {
-        //
+        dd($song);
     }
 
     /**
@@ -94,6 +94,8 @@ class SongController extends Controller
      */
     public function destroy(Song $song)
     {
-        //
+//        dd($song);
+        $song->delete();
+        return  redirect()->route('song.index');
     }
 }
