@@ -34,8 +34,6 @@
                     </i>Albums</a></li>
             <li><a id="menu-artists" class="row align-items-center" href="#"><i class="material-icons">explore</i>Artists</a>
             </li>
-            <!-- <li><a class="row align-items-center" href="#"><i class="material-icons" style="max-width: 44px;">star_rate</i>Trending</a></li> -->
-            <!-- <li><a class="row align-items-center" href="#"><i class="material-icons">favorite</i>Liked</a></li> -->
         </ul>
     </aside>
     <!-- end of sidebar -->
