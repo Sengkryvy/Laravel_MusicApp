@@ -73,7 +73,7 @@ class AlbumController extends Controller
      * @param  \App\Album  $album
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Album $album)
+    public function update(AlbumRequest $request, Album $album)
     {
         $album->update($request->all());
         return redirect()->route('album.index')->with('success', 'Album was successfully updated .');

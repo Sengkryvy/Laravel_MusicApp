@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9904e39e-0b08-491f-945d-2c76713d47da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/crud/song/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SongController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SongController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,12 +75,13 @@
     <session id="1123996259">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -105,7 +104,7 @@
         <counts>
           <entry key="env" value="18" />
           <entry key="js" value="19" />
-          <entry key="php" value="949" />
+          <entry key="php" value="994" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -113,7 +112,7 @@
           <entry key=".env file" value="18" />
           <entry key="Blade" value="692" />
           <entry key="JavaScript" value="19" />
-          <entry key="PHP" value="257" />
+          <entry key="PHP" value="302" />
         </counts>
       </usages-collector>
     </session>
@@ -159,8 +158,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SongController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+            <state relative-caret-position="1275">
+              <caret line="102" column="48" lean-forward="true" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -177,7 +176,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/crud/song/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="493">
               <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
             </state>
           </provider>
@@ -195,7 +194,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="340">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
@@ -527,7 +526,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="song&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/SongController.php&#10;controller&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/SongController.php&#10;web&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/routes/web.php&#10;main&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/public/js/main.js&#10;pageCo&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/PageController.php&#10;albucon&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/AlbumController.php&#10;we&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/routes/web.php&#10;aja&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/resources/views/pages/ajax.blade.php&#10;crea&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/resources/views/crud/song/create.blade.php&#10;songcon&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/app/Http/Controllers/SongController.php&#10;index&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/resources/views/crud/song/index.blade.php&#10;songco&#9;null&#9;null&#10;album&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/app/Http/Controllers/AlbumController.php&#10;Album&#9;null&#9;null&#10;Al&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/app/Album.php&#10;serviceProvider&#9;null&#9;null&#10;web.&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/routes/web.php&#10;route&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="ArtistCon&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/ArtistController.php&#10;Album&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/AlbumController.php&#10;song&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/SongController.php&#10;controller&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/SongController.php&#10;web&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/routes/web.php&#10;main&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/public/js/main.js&#10;pageCo&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/PageController.php&#10;albucon&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/AlbumController.php&#10;we&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/routes/web.php&#10;aja&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/resources/views/pages/ajax.blade.php&#10;crea&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/resources/views/crud/song/create.blade.php&#10;songcon&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/app/Http/Controllers/SongController.php&#10;index&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/resources/views/crud/song/index.blade.php&#10;songco&#9;null&#9;null&#10;album&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/app/Http/Controllers/AlbumController.php&#10;Al&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/app/Album.php&#10;serviceProvider&#9;null&#9;null&#10;web.&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/routes/web.php&#10;route&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -587,18 +586,19 @@
       <workItem from="1562129315935" duration="1044000" />
       <workItem from="1562130402535" duration="6511000" />
       <workItem from="1562141596632" duration="4744000" />
-      <workItem from="1562218779316" duration="3109000" />
+      <workItem from="1562218779316" duration="3343000" />
+      <workItem from="1562251057382" duration="1749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137168000" />
+    <option name="totallyTimeSpent" value="139151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19127516" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -613,7 +613,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.2738255" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" visible="true" weight="0.2738255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" visible="true" weight="0.2738255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -884,6 +884,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request/songRequest.php" />
     <entry file="file://$PROJECT_DIR$/public/js/playAndControl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3502">
@@ -898,20 +899,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request/songRequest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/crud/song/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/SongRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -922,9 +913,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/SongRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/crud/song/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="493">
           <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
@@ -936,17 +934,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/crud/song/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="340">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SongController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+        <state relative-caret-position="1275">
+          <caret line="102" column="48" lean-forward="true" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
         </state>
       </provider>
     </entry>
