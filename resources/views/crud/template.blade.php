@@ -34,6 +34,16 @@
                     </i>Albums</a></li>
             <li><a id="menu-artists" class="row align-items-center" href="{{ route('artist.index') }}"><i class="material-icons">explore</i>Artists</a>
             </li>
+            <li>
+                <a id="menu-artists" class="row align-items-center" href="{{ route('logout') }}"
+                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                    <i style="font-size: 1.4rem" class=" fas fa-sign-out-alt"></i>Logout
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </li>
         </ul>
     </aside>
     <!-- end of sidebar -->

@@ -16,6 +16,9 @@ Route::get('/', function () {
 //    return view('pages.song_page');
 });
 
+Route::get('/admin', function () {
+    return redirect()->route('song.index');
+})->middleware('auth');
 Route::get('/page/play', 'PageController@play')->name('page.play');
 
 Route::post('/song/count/{id}', 'SongController@updateCount');
@@ -36,3 +39,11 @@ Route::resources([
     'album' => 'AlbumController',
     'song' => 'SongController',
     ]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
