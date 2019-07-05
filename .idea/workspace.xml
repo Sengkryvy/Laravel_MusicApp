@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/resources/views/crud/song/index.blade.php" line="52" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="9904e39e-0b08-491f-945d-2c76713d47da" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="9904e39e-0b08-491f-945d-2c76713d47da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,14 +122,40 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1672117578">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="env" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key=".env file" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -170,6 +202,13 @@
             <state relative-caret-position="289">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170" />
           </provider>
         </entry>
       </file>
@@ -417,6 +456,7 @@
               <item name="Laravel_MusicApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laravel_MusicApp" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< Updated upstream
             <path>
               <item name="Laravel_MusicApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laravel_MusicApp" type="462c0819:PsiDirectoryNode" />
@@ -450,6 +490,8 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> Stashed changes
           </expand>
           <select />
         </subPane>
@@ -459,6 +501,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="log&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/Auth/LoginController.php&#10;we&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/routes/web.php&#10;web&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/routes/web.php&#10;Login&#9;null&#9;null&#10;route&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/routes&#10;login&#9;null&#9;null&#10;ArtistCon&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/ArtistController.php&#10;Album&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/AlbumController.php&#10;song&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/SongController.php&#10;controller&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/SongController.php&#10;main&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/public/js/main.js&#10;pageCo&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/PageController.php&#10;albucon&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Git Clone/Laravel_MusicApp-master/Laravel_MusicApp-master/app/Http/Controllers/AlbumController.php&#10;aja&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/resources/views/pages/ajax.blade.php&#10;crea&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/resources/views/crud/song/create.blade.php&#10;songcon&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/app/Http/Controllers/SongController.php&#10;index&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/resources/views/crud/song/index.blade.php&#10;songco&#9;null&#9;null&#10;album&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/app/Http/Controllers/AlbumController.php&#10;Al&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/app/Album.php&#10;serviceProvider&#9;null&#9;null&#10;web.&#9;FILE&#9;file://D:/I4/Semester II/Interner Programming S2/Project/Music App/Music_App/routes/web.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -519,10 +562,12 @@
       <workItem from="1562141596632" duration="4744000" />
       <workItem from="1562218779316" duration="3343000" />
       <workItem from="1562251057382" duration="8544000" />
+      <workItem from="1562292703316" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="146068000" />
   </component>
   <component name="ToolWindowManager">
@@ -530,6 +575,14 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19664429" />
+=======
+    <option name="totallyTimeSpent" value="146208000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19664429" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -544,7 +597,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.2738255" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" weight="0.2738255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" visible="true" weight="0.27375886" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -765,6 +818,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -772,6 +826,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -779,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/aside.css">
@@ -796,6 +849,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -810,18 +864,39 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/resources/views/crud/template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#3;n#ul#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#li#3;n#ul#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SongController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -836,6 +911,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AlbumController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -845,6 +937,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="119">
           <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
@@ -862,6 +955,9 @@
         <state relative-caret-position="255">
           <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
         </state>
+=======
+        <state relative-caret-position="-170" />
+>>>>>>> Stashed changes
       </provider>
     </entry>
   </component>
