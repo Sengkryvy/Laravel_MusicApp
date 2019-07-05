@@ -14,6 +14,11 @@ class ArtistController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index()
     {
         $artists = Artist::all();
@@ -73,7 +78,7 @@ class ArtistController extends Controller
      * @param  \App\Artist  $artist
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Artist $artist)
+    public function update(ArtistRequest $request, Artist $artist)
     {
         $request['image'] = $request->image_url;
         unset($request['image_url']);
