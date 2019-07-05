@@ -18,6 +18,10 @@ $(document).ready(function () {
 
     //menu selection
     $("aside ul li a").on('click', function () {
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
         $("aside ul li, .active-menu").removeClass("active-menu");
         $(this).parent().addClass("active-menu");
         $(this).addClass("active-menu");
